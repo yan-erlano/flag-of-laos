@@ -7,6 +7,7 @@
   <style>
     /* Write your CSS Code here */
 
+    /* Red box */
      .flag {
       background-color: #ce1126;
       width: 900px;
@@ -14,12 +15,14 @@
       position: relative;
     }
 
+    /* Blue box */
     .flag > div {
       background-color: #002868;
       width: 900px;
       height: 300px;
     }
     
+    /* White circle */
     .flag > div p {
       background-color: #fff;
       width: 200px;
@@ -39,6 +42,13 @@
     .flag > p {
       color: white;
     }
+
+    /* Comments:
+    1. This is the original code I wrote for this test.
+    2. Because the text has margin, it pushes down the background color downward. This became a struggle for me because I could not compute the pixels required for everything to be centered.
+    3. As per Angela's tutorial, the text (<p> element) has a margin so she set it to zero. She used the Inspection option on the webpage and looked at the border/padding icon to see what is "wrong" on the code and to center the circle of the flag.
+    4. She also used "cheat code", a copy-paste technique using the Inspect option. But this is because she already taught in previous lessons about parent-child selector in CSS.
+    5. I'm leaving this comments here for future reference.*/
 
   </style>
 </head>
