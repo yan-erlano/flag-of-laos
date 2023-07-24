@@ -1,2 +1,2 @@
 # flag-of-laos
-Flag of Laos with text. I created this flag as a project for Angela Yu's webdev course as a test using internal CSS: combining selectors, specificty and positioning.
+Flag of Laos with text. This is a project for Angela Yu's webdev course - a test using HTML using internal styling: combining selectors, specificty and positioning.
